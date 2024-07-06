@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+/* Style for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+/* Style for the button links */
+a {
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
